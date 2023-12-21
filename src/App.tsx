@@ -1,11 +1,14 @@
-import React from 'react';
 import './App.css';
+import Home from './components/Home/Home';
+// import Form from './components/formBlock/Form';
+
 
 function App() {
   return (
     <div className="App">
-      <h2>New App</h2>
-    </div>
+        {/* <Form/> */}
+        <Home/>
+    </div> 
   );
 }
 
